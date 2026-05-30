@@ -1,0 +1,369 @@
+/* FULL PAGE LAYOUT */
+html,
+body{
+
+    height:100%;
+
+}
+
+
+
+body{
+
+    background:linear-gradient(to right,
+    #667eea,
+    #764ba2);
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    margin:0;
+
+    padding:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    min-height:100vh;
+
+}
+
+/* PUSH FOOTER DOWN */
+
+.main-content{
+
+    flex:1;
+
+}
+
+footer{
+
+    margin-top:auto;
+
+}
+
+
+
+/* NAVBAR */
+
+.amazon-navbar{
+    background:#131921;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+
+
+/* LOGO */
+
+.navbar-brand{
+    font-size:30px;
+    color:white !important;
+    text-transform:lowercase;
+}
+
+
+
+/* SEARCH BUTTON */
+
+.search-btn{
+    background:#febd69;
+    border:none;
+    font-weight:bold;
+}
+
+.search-btn:hover{
+    background:#f3a847;
+}
+
+
+
+/* NAV LINKS */
+
+.nav-link{
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#febd69 !important;
+}
+
+
+
+/* BANNER */
+
+.banner{
+    width:100%;
+    height:350px;
+
+    background-image:
+    linear-gradient(to bottom,
+    rgba(255,255,255,0),
+    #eaeded),
+
+    url('https://images.unsplash.com/photo-1523275335684-37898b6baf30');
+
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+/* PRODUCT CARD */
+
+.product-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+
+    transition:0.3s;
+    cursor:pointer;
+
+    height:100%;
+}
+
+
+
+/* PRODUCT HOVER */
+
+.product-card:hover{
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+
+/* PRODUCT IMAGE */
+
+.product-card img{
+    height:220px;
+    object-fit:contain;
+}
+
+
+
+/* PRODUCT TITLE */
+
+.product-card h5{
+    font-size:18px;
+    margin-top:15px;
+}
+
+
+
+/* PRODUCT PRICE */
+
+.product-card h4{
+    color:#b12704;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+
+
+/* BUTTON */
+
+.btn-warning{
+    background:#ffd814;
+    border:none;
+    color:black;
+    font-weight:500;
+}
+
+.btn-warning:hover{
+    background:#f7ca00;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background:#131921 !important;
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .search-box{
+        width:100% !important;
+    }
+
+    .banner{
+        height:200px;
+    }
+
+}
+/* PRODUCT DETAILS PAGE */
+
+.product-details-image{
+
+    max-height:450px;
+
+    object-fit:contain;
+
+}
+/* REGISTER PAGE */
+
+label{
+    color:black;
+    font-weight:600;
+}
+
+.form-control{
+    height:50px;
+}
+
+.bg-white{
+    background:white !important;
+}
+/* AUTH PAGES */
+
+.auth-body{
+
+    background: linear-gradient(to right,
+    #4facfe,
+    #00f2fe);
+
+    min-height:100vh;
+}
+
+
+
+.auth-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+
+
+.auth-card h2{
+
+    font-weight:bold;
+
+    color:#131921;
+}
+
+
+
+.form-label{
+
+    font-weight:600;
+
+    color:#111;
+}
+
+
+
+.form-control{
+
+    height:50px;
+
+    border-radius:8px;
+} 
+/* ADMIN FORMS */
+
+.admin-form label{
+
+    color:#111 !important;
+
+    font-weight:600;
+
+}
+
+
+
+.admin-form .form-control{
+
+    color:#111 !important;
+
+    background:white !important;
+
+    border:1px solid #ccc;
+
+}
+
+
+
+.admin-form textarea{
+
+    color:#111 !important;
+
+    background:white !important;
+
+}
+
+/* ADMIN PAGE */
+
+.admin-page{
+
+    background:#f1f3f6 !important;
+
+    min-height:100vh;
+
+}
+
+
+
+/* ADMIN CARD */
+
+.admin-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* ADMIN FORM */
+
+.admin-form label{
+
+    color:#111 !important;
+
+    font-weight:600;
+
+    display:block;
+
+    margin-bottom:8px;
+
+}
+
+
+
+.admin-form .form-control{
+
+    background:#fff !important;
+
+    color:#111 !important;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
+
+
+
+.admin-form textarea{
+
+    background:#fff !important;
+
+    color:#111 !important;
+
+}
